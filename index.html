@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div data-include="components/header.html"></div>
+
+    <main>
+      <form class="loginForm" action="/login" method="post">
+        <label for="username">Korisničko ime:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Unesite korisničko ime"
+          required
+        />
+        <br />
+        <label for="password">Lozinka:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Unesite lozinku"
+          required
+        />
+        <br />
+        <button type="submit">Prijava</button>
+      </form>
+    </main>
+
+    <div data-include="components/footer.html"></div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
