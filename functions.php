@@ -9,6 +9,10 @@ function dd($value)
     die();
 }
 
-function urlIs($value) {
+function urlIs($value)
+{
+    if (!isset($_SERVER['REQUEST_URI'])) {
+        return false;
+    }
     return $_SERVER['REQUEST_URI'] === $value;
 }

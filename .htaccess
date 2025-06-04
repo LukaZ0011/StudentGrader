@@ -1,0 +1,6 @@
+# If StudentGrader is now the root:
+RewriteEngine On
+RewriteBase /StudentGrader/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
