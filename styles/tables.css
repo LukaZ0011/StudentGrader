@@ -1,0 +1,116 @@
+/* Tables Styles */
+.table-container {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-title {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #111827;
+  margin: 0 0 1rem 0;
+}
+
+.table-wrapper {
+  overflow: hidden;
+}
+
+.data-table {
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table-head {
+  background-color: #f9fafb;
+}
+
+.table-head th {
+  padding: 0.75rem 1.5rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-body {
+  background-color: white;
+}
+
+.table-body tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-body tr:last-child {
+  border-bottom: none;
+}
+
+.table-body td {
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.table-body td.font-medium {
+  font-weight: 500;
+  color: #111827;
+}
+
+.table-body td.table-actions {
+  font-weight: 500;
+}
+
+.table-actions a {
+  color: #2563eb;
+  text-decoration: none;
+  margin-right: 0.75rem;
+}
+
+.table-actions a:hover {
+  color: #1d4ed8;
+}
+
+.table-actions a:last-child {
+  margin-right: 0;
+  color: #6b7280;
+}
+
+.table-actions a:last-child:hover {
+  color: #111827;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+}
+
+.status-success {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-warning {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-danger {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

@@ -13,7 +13,10 @@ if ($uri === '' || $uri === false) $uri = '/';
 $routes = [
     '/' => __DIR__ . '/controllers/index.php',
     '/about' => __DIR__ . '/controllers/about.php',
-    '/contact' => __DIR__ . '/controllers/contact.php'
+    '/contact' => __DIR__ . '/controllers/contact.php',
+    '/login' => __DIR__ . '/controllers/login.php',
+    '/logout' => __DIR__ . '/controllers/logout.php',
+    '/dashboard' => __DIR__ . '/controllers/dashboard.php'
 ];
 
 function routeToController($uri, $routes)

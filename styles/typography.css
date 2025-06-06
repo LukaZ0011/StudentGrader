@@ -1,0 +1,109 @@
+/* Typography Styles */
+.prose {
+  max-width: none;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #374151;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose p {
+  color: #6b7280;
+  margin-bottom: 1rem;
+  line-height: 1.625;
+}
+
+.prose ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Content sections */
+.content-section {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.content-section h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #111827;
+}
+
+.content-section p {
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Welcome section */
+.welcome-section {
+  text-align: center;
+}
+
+.welcome-section h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.welcome-card {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.welcome-card h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-card p {
+  color: #1d4ed8;
+  margin-bottom: 1rem;
+}

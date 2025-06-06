@@ -1,12 +1,18 @@
 <!doctype html>
-<html lang="en" class="h-full bg-gray-100">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/StudentGrader/styles/nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grader</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/tables.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/typography.css">
 </head>
 
-<body class="h-full">
-    <div class="min-h-full">
+<body>
+    <div class="page-container">

@@ -24,6 +24,7 @@
 .navbar-links {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .navbar-links a {
@@ -46,4 +47,11 @@
 .navbar-links a.active {
   background-color: #1a202c;
   color: #fff;
+}
+
+.navbar-links span {
+  color: #d1d5db;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-right: 0.5rem;
 }
