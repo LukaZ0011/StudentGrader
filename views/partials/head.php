@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/forms.css">
     <link rel="stylesheet" href="styles/tables.css">
     <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/dashboard-roles.css">
     <link rel="stylesheet" href="styles/typography.css">
 </head>
 

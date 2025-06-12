@@ -6,7 +6,7 @@
     <div class="content-wrapper">
         <?php if (isLoggedIn()): ?>
             <div class="alert alert-success mb-6">
-                <h2>Welcome back, <?= htmlspecialchars(getCurrentUser()) ?>!</h2>
+                <h2>Welcome back, <?= formatUserName() ?>!</h2>
                 <p>You are successfully logged in to the Student Grader system.</p>
             </div>
 

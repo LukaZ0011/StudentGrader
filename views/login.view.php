@@ -13,16 +13,16 @@
 
             <form method="POST" action="/StudentGrader/login">
                 <div class="form-group">
-                    <label class="form-label" for="username">
-                        Username
+                    <label class="form-label" for="email">
+                        Email
                     </label>
                     <input
                         class="form-input"
-                        id="username"
-                        name="username"
-                        type="text"
-                        placeholder="Enter your username"
-                        value="<?= htmlspecialchars($_POST['username'] ?? '') ?>"
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="Enter your email"
+                        value="<?= htmlspecialchars($_POST['email'] ?? '') ?>"
                         required>
                 </div>
 
@@ -48,9 +48,9 @@
 
             <div class="form-demo-info">
                 <h3>Demo Accounts:</h3>
-                <p><strong>Admin:</strong> admin / password123</p>
-                <p><strong>Teacher:</strong> teacher / teach2024</p>
-                <p><strong>Student:</strong> student / study2024</p>
+                <p><strong>Admin:</strong> ivan.horvat@email.com / lozinka123</p>
+                <p><strong>Teacher:</strong> ana.kovac@email.com / lozinka123</p>
+                <p><strong>Student:</strong> petra.novak@email.com / lozinka123</p>
             </div>
         </div>
     </div>

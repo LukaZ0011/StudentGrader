@@ -13,7 +13,7 @@
                 </div>
                 <div class="protected-banner-text">
                     <h3>Protected Area</h3>
-                    <p>This page requires authentication. You are logged in as: <strong><?= htmlspecialchars(getCurrentUser()) ?></strong></p>
+                    <p>This page requires authentication. You are logged in as: <strong><?= formatUserName() ?></strong></p>
                 </div>
             </div>
         </div>

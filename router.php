@@ -16,7 +16,8 @@ $routes = [
     '/contact' => __DIR__ . '/controllers/contact.php',
     '/login' => __DIR__ . '/controllers/login.php',
     '/logout' => __DIR__ . '/controllers/logout.php',
-    '/dashboard' => __DIR__ . '/controllers/dashboard.php'
+    '/dashboard' => __DIR__ . '/controllers/dashboard.php',
+    '/test-api' => __DIR__ . '/test_api.html'
 ];
 
 function routeToController($uri, $routes)

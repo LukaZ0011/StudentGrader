@@ -11,7 +11,7 @@
                 <a href="/StudentGrader/contact" class="<?= urlIs('/StudentGrader/contact') ? 'active' : '' ?>">Contact</a>
 
                 <?php if (isLoggedIn()): ?>
-                    <span>Welcome, <?= htmlspecialchars(getCurrentUser()) ?>!</span>
+                    <span>Welcome, <?= formatUserName() ?>!</span>
                     <a href="/StudentGrader/logout" class="btn btn-danger">Logout</a>
                 <?php else: ?>
                     <a href="/StudentGrader/login" class="<?= urlIs('/StudentGrader/login') ? 'active' : '' ?> btn btn-primary">Login</a>
